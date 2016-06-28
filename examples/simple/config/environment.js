@@ -61,7 +61,7 @@ module.exports = function(environment) {
     'style-src': "'self' 'unsafe-inline' http://use.typekit.net https://maxcdn.bootstrapcdn.com",
     'script-src': "'self' 'unsafe-eval' 'unsafe-inline' https://*.auth0.com https://use.typekit.net",
     'img-src': 'https://www.gravatar.com *.wp.com data: http://p.typekit.net',
-    'connect-src': "'self' http://localhost:* https://samples.auth0.com"
+    'connect-src': "'self' http://localhost:* https://*.auth0.com"
   };
 
   return ENV;
